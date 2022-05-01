@@ -37,8 +37,8 @@ export default {
   name: 'app',
   data() {
     return{
-      api_key: 'c0eb90c144ec33a0aee2cd45a7d873f1', 
-      url_base: "https://api.openweathermap.org/data/2.5/", // обращаюсь на серв "https://api.openweathermap.org/data/2.5/weather?q=?&units=metric&APPID=c0eb90c144ec33a0aee2cd45a7d873f1" 
+      api_key: 'YOUR API KEY', 
+      url_base: "https://api.openweathermap.org/data/2.5/",  
       query: "" ,
       weather: {}
     }
